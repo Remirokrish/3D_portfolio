@@ -49,7 +49,7 @@ I have modified the GSAP club plugins with the trial plugins, but with the trial
    npm run dev
    ```
 
-Open your browser and navigate to `http://localhost:3000` to view the website.
+Open your browser and navigate to `http://localhost:3000`  or 'http://localhost:5173' to view the website.
 
 ## Features
 
