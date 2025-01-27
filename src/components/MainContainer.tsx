@@ -4,6 +4,8 @@ import Career from "./Career";
 import Contact from "./Contact";
 import Cursor from "./Cursor";
 import Landing from "./Landing";
+import Ground from "./Ground";
+import MyComponent from "./MyComponent";
 import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
@@ -40,14 +42,16 @@ const MainContainer = ({ children }: PropsWithChildren) => {
           <div className="container-main">
             <Landing>{!isDesktopView && children}</Landing>
             <About />
-            <WhatIDo />
+            <WhatIDo />            
             <Career />
             <Work />
-            {isDesktopView && (
+           
+            <MyComponent />
+            {/*{isDesktopView && (
               <Suspense fallback={<div>Loading....</div>}>
                 <TechStack />
               </Suspense>
-            )}
+            )}*/}
             <Contact />
           </div>
         </div>

@@ -65,7 +65,7 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/krishnakant-nagpure-3245225b" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
@@ -80,7 +80,7 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="/images/Krishnakant Nagpure Java Fullstack 7+years.pdf" download>
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
